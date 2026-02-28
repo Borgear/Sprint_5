@@ -1,0 +1,28 @@
+# Системные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Окружение и зависимости
+venv/
+env/
+.env
+.venv
+
+# Отчеты и временные данные pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Отчеты Allure
+allure-results/
+allure-report/
+
+# Логи и временные файлы IDE
+.idea/
+.vscode/
+*.log
+
+# Файлы драйверов (если скачивались вручную)
+chromedriver
+geckodriver
